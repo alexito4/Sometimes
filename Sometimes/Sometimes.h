@@ -6,7 +6,7 @@
 //  Copyright © 2015 Alejandro Martinez. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Sometimes.
 FOUNDATION_EXPORT double SometimesVersionNumber;

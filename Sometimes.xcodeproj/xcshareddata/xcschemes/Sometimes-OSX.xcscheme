@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA0C8D801C0504310010FA94"
-               BuildableName = "Sometimes-OSX.framework"
+               BuildableName = "Sometimes.framework"
                BlueprintName = "Sometimes-OSX"
                ReferencedContainer = "container:Sometimes.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA0C8D801C0504310010FA94"
-            BuildableName = "Sometimes-OSX.framework"
+            BuildableName = "Sometimes.framework"
             BlueprintName = "Sometimes-OSX"
             ReferencedContainer = "container:Sometimes.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA0C8D801C0504310010FA94"
-            BuildableName = "Sometimes-OSX.framework"
+            BuildableName = "Sometimes.framework"
             BlueprintName = "Sometimes-OSX"
             ReferencedContainer = "container:Sometimes.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA0C8D801C0504310010FA94"
-            BuildableName = "Sometimes-OSX.framework"
+            BuildableName = "Sometimes.framework"
             BlueprintName = "Sometimes-OSX"
             ReferencedContainer = "container:Sometimes.xcodeproj">
          </BuildableReference>

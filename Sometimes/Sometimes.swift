@@ -26,6 +26,7 @@ public struct Sometimes {
     
     /// Object used to store the keys.
     /// `NSUserDefaults.standardUserDefaults()` by default.
+    /// TODO: This could be public in order to allow the client to change the store.
     static var defaults: SometimesStore = NSUserDefaults.standardUserDefaults()
     
     /**

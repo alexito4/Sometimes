@@ -13,6 +13,8 @@
 		FA0C8D9C1C0504960010FA94 /* Sometimes.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0C8D9A1C05047F0010FA94 /* Sometimes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA0C8D9E1C0505550010FA94 /* Sometimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C8D9D1C0505550010FA94 /* Sometimes.swift */; };
 		FA0C8D9F1C0505550010FA94 /* Sometimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0C8D9D1C0505550010FA94 /* Sometimes.swift */; };
+		FA3600E91C07A76C001EF105 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3600E81C07A76C001EF105 /* Store.swift */; };
+		FA3600EA1C07A76C001EF105 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3600E81C07A76C001EF105 /* Store.swift */; };
 		FACF88991C0793BF00FC1F4D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACF88971C0793BF00FC1F4D /* Nimble.framework */; };
 		FACF889A1C0793BF00FC1F4D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACF88981C0793BF00FC1F4D /* Quick.framework */; };
 /* End PBXBuildFile section */
@@ -36,8 +38,9 @@
 		FA0C8D991C05047F0010FA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA0C8D9A1C05047F0010FA94 /* Sometimes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sometimes.h; sourceTree = "<group>"; };
 		FA0C8D9D1C0505550010FA94 /* Sometimes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sometimes.swift; sourceTree = "<group>"; };
-		FACF88971C0793BF00FC1F4D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
-		FACF88981C0793BF00FC1F4D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		FA3600E81C07A76C001EF105 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		FACF88971C0793BF00FC1F4D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = ../Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		FACF88981C0793BF00FC1F4D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = ../Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +74,6 @@
 		FA0C8D581C0503AE0010FA94 = {
 			isa = PBXGroup;
 			children = (
-				FACF88971C0793BF00FC1F4D /* Nimble.framework */,
-				FACF88981C0793BF00FC1F4D /* Quick.framework */,
 				FA0C8D981C05047F0010FA94 /* Sometimes */,
 				FA0C8D701C0503AE0010FA94 /* SometimesTests */,
 				FA0C8D631C0503AE0010FA94 /* Products */,
@@ -93,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				FA0C8D711C0503AE0010FA94 /* SometimesTests.swift */,
+				FACF88971C0793BF00FC1F4D /* Nimble.framework */,
+				FACF88981C0793BF00FC1F4D /* Quick.framework */,
 				FA0C8D731C0503AE0010FA94 /* Info.plist */,
 			);
 			path = SometimesTests;
@@ -102,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				FA0C8D9D1C0505550010FA94 /* Sometimes.swift */,
+				FA3600E81C07A76C001EF105 /* Store.swift */,
 				FA0C8D991C05047F0010FA94 /* Info.plist */,
 				FA0C8D9A1C05047F0010FA94 /* Sometimes.h */,
 			);
@@ -273,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0C8D9E1C0505550010FA94 /* Sometimes.swift in Sources */,
+				FA3600E91C07A76C001EF105 /* Store.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0C8D9F1C0505550010FA94 /* Sometimes.swift in Sources */,
+				FA3600EA1C07A76C001EF105 /* Store.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

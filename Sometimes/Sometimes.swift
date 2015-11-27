@@ -9,10 +9,6 @@
 import Foundation
 
 /// Typed key to use with the Sometimes type.
-/*
-TODO: Use a custom user defaults domain or prefix the keys.
-    In oder to provide a `clean` method.
-*/
 public struct SometimesKey {
     let valueKey: String
     
@@ -21,26 +17,9 @@ public struct SometimesKey {
     }
 }
 
-/// Defines the protocol need for the object to store the keys.
-protocol SometimesStore {
-    func allKeys() -> Set<String>
-    func boolForKey(defaultName: String) -> Bool
-    mutating func setBool(value: Bool, forKey defaultName: String)
-    mutating func removeBoolForKey(defaultName: String)
-}
-
-/// Extend `NSUserDefaults` to conform to `SometimesStore`
-extension NSUserDefaults: SometimesStore {
-    func removeBoolForKey(defaultName: String) {
-        self.removeObjectForKey(defaultName)
-    }
-    func allKeys() -> Set<String> {
-        return Set(self.dictionaryRepresentation().keys)
-    }
-}
-
 public struct Sometimes {
     
+    /// Prefix used to diferentiate the keys of this library.
     private static let keyPrefix = "sometimes_"
     
     public typealias Block = Void -> ()

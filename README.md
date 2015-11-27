@@ -1,5 +1,7 @@
 # Sometimes
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/alexito4/Sometimes/master/LICENSE.md) 
+[![GitHub release](https://img.shields.io/github/release/alexito4/Sometimes.svg)](https://github.com/alexito4/Sometimes/releases)
 [![Build Status](https://travis-ci.org/alexito4/Sometimes.svg?branch=master)](https://travis-ci.org/alexito4/Sometimes)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 

@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode7.1
+
+script:
+  # - xcodebuild test -scheme Result-Mac
+  - xcodebuild test -scheme Sometimes-iOS -sdk iphonesimulator
+
+notifications:
+  email: false

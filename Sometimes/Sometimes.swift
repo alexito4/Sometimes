@@ -9,12 +9,19 @@
 import Foundation
 
 /// Typed key to use with the Sometimes type.
-public struct SometimesKey {
+public struct SometimesKey: Hashable {
     let valueKey: String
     
     public init(_ key: String) {
         self.valueKey = Sometimes.keyPrefix + key
     }
+    
+    public var hashValue: Int {
+        return valueKey.hash
+    }
+}
+public func ==(lhs: SometimesKey, rhs: SometimesKey) -> Bool {
+    return lhs.valueKey == rhs.valueKey
 }
 
 public struct Sometimes {

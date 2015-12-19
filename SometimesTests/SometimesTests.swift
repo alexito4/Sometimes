@@ -12,6 +12,7 @@ import Nimble
 
 @testable import Sometimes
 
+/// Extend `Dictionary`to conform to `SometimesStore`
 extension Dictionary: SometimesStore {
     
     func boolForKey(defaultName: String) -> Bool {
